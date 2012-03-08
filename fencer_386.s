@@ -14,15 +14,15 @@
 
 // func LFence()
 TEXT ·LFence+0(SB),$0-0
-	LFENCE
+    LFENCE
     RET
 
 // func MFence()
 TEXT ·MFence+0(SB),$0-0
-	MFENCE
+    MFENCE
     RET
 
 // func SFence()
 TEXT ·SFence+0(SB),$0-0
-	SFENCE
+    SFENCE
     RET
